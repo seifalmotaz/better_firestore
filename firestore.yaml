@@ -1,0 +1,16 @@
+
+users/User:
+  name: string
+  email: string
+  password: string
+  profile_picture: string?
+  likes: number
+  adult: boolean
+  created_at: timestamp
+  role: string, [master, admin, user]
+  address:
+    street: string
+    city: string
+    state: string
+    zip: string
+    country: string
